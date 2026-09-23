@@ -190,7 +190,7 @@ footer a { justify-self: end; }
   .hero-copy { left: 20px; right: 20px; max-width: none; top: auto; bottom: 54px; transform: none; }
   .hero-copy.reveal { transform: translateY(24px); }
   .hero-copy.reveal.visible { transform: translateY(0); }
-  .hero h1 { font-size: clamp(5rem, 23vw, 7.7rem); line-height: .76; }
+  .hero h1 { font-size: min(14vw, 6rem); line-height: .76; }
   .hero-subtitle { margin: 18px 0 22px; font-size: .95rem; }
   .hero-actions { gap: 9px; }
   .hero-actions .button { min-height: 43px; padding-inline: 16px; font-size: .64rem; }
@@ -211,7 +211,7 @@ footer a { justify-self: end; }
   .food-photo { height: 520px; }
   .food-photo img { object-position: 4% 70%; transform: scale(1.12); }
   .events-heading { align-items: start; flex-direction: column; }
-  .events h2 { font-size: clamp(3.6rem, 17vw, 5.6rem); }
+  .events h2 { font-size: min(10vw, 4.5rem); }
   .events-meta { width: 100%; align-items: start; }
   .event-row { min-height: 118px; grid-template-columns: 72px 104px 1fr; }
   .event-row time strong { font-size: 3rem; }
