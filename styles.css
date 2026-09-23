@@ -221,7 +221,7 @@ footer a { justify-self: end; }
   .event-arrow { display: none; }
   .private-events { grid-template-columns: 1fr; }
   .private-photo { height: 440px; }
-  .private-copy h2 { font-size: clamp(3.8rem, 17vw, 5.6rem); }
+  .private-copy h2 { font-size: min(10vw, 4.5rem); }
   .occasion-list { grid-column: 1; margin: 6px 0 12px; }
   .location h2 { font-size: clamp(2.65rem, 11.5vw, 5rem); }
   .hours { grid-template-columns: 1fr; }
